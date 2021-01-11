@@ -3,7 +3,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const uglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
 
-const libraryName = 'idea-markets-plugin'; 
+const libraryName = 'eth-widget-plugin'; 
 const outputFile = `${libraryName}.min.js`;
 
 
