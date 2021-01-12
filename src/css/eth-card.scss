@@ -1,0 +1,54 @@
+.eth-plugin-widget{
+    height: 550px;
+    width: 360px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    border-radius: 15px;
+    background: #314755; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #314755, #26a0da); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #314755, #26a0da); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    .data{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: 2px solid white;
+        margin: auto;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+
+        &:nth-of-type(3){
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+    }
+    .actions{
+        width: 360px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    button{
+        width: 40%;
+        height: 50px;
+        border: none;
+        margin-top: 10px;
+        margin: 2px;
+        border-radius: 10px;
+        box-shadow: 4px;
+        color: #26a0da;
+        font-size: 20px;
+
+        &:nth-of-type(3) {
+            margin-top: 10px;
+            width: 82%;
+            background-color: #C86E6E;
+            color: white;
+        }
+    }
